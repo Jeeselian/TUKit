@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TUKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TUKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TUKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TUKit: d9caac9e0f62f4ca10f1195fca18be3fffc6c060
+
+PODFILE CHECKSUM: 8d1ed30d76ed5a97d148c4bd6aae27bfa6a98c08
+
+COCOAPODS: 1.5.3

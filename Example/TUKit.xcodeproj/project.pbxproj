@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63C0770FF6E1BF6B116F5096 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63C0770FF6E1BF6B116F5096 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7216CA990F605765D41B3A7B /* Pods_TUKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		821D7A2F63671623B33944C9 /* Pods-TUKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TUKit_Tests/Pods-TUKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABA0818DC4005975DDBF3F40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EED8B7A773E8D943A0648AC3 /* TUKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TUKit.podspec; path = ../TUKit.podspec; sourceTree = "<group>"; };
+		ABA0818DC4005975DDBF3F40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EED8B7A773E8D943A0648AC3 /* TUKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TUKit.podspec; path = ../TUKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F18FCFA04243AB311CEAF34A /* Pods-TUKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TUKit_Example/Pods-TUKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F80F123C73F763F9E5A3320D /* Pods-TUKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TUKit_Example/Pods-TUKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Jeeselian;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A8X9HM6ZW7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -520,6 +524,7 @@
 			baseConfigurationReference = F18FCFA04243AB311CEAF34A /* Pods-TUKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8X9HM6ZW7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TUKit/TUKit-Prefix.pch";
 				INFOPLIST_FILE = "TUKit/TUKit-Info.plist";
@@ -536,6 +541,7 @@
 			baseConfigurationReference = F80F123C73F763F9E5A3320D /* Pods-TUKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8X9HM6ZW7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TUKit/TUKit-Prefix.pch";
 				INFOPLIST_FILE = "TUKit/TUKit-Info.plist";
