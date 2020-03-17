@@ -9,6 +9,7 @@
 #import "TUViewController.h"
 
 @interface TUViewController ()
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
 @end
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   // self.testView.clickSingalName = @"testView";
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+Click_TUSignal(testView){
+    NSLog(@"点击了testView");
+}
+
 @end
+

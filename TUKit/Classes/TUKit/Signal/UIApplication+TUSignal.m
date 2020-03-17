@@ -9,7 +9,6 @@
 #import "UIApplication+TUSignal.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
-//#import <AppKit/AppKit.h>
 
 
 @implementation UIApplication (TUSignal)

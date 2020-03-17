@@ -527,6 +527,10 @@
 				DEVELOPMENT_TEAM = A8X9HM6ZW7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TUKit/TUKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../TUKit/Classes/TUKit\"",
+					"\"$(SRCROOT)/../TUKit/Classes/TUKit/Signal\"",
+				);
 				INFOPLIST_FILE = "TUKit/TUKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -544,6 +548,10 @@
 				DEVELOPMENT_TEAM = A8X9HM6ZW7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TUKit/TUKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../TUKit/Classes/TUKit\"",
+					"\"$(SRCROOT)/../TUKit/Classes/TUKit/Signal\"",
+				);
 				INFOPLIST_FILE = "TUKit/TUKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

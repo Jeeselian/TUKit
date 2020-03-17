@@ -26,6 +26,9 @@
 		76C681F3710ABE5DC0C9CEEBCBD71DFB /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 834395EBF5FF1C5D6A66A6C36E197436 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D3FE6DF024FFD4B834EBEC5093D5CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE567C9F3D9330C64E91A4BD2505E0 /* UIKit.framework */; };
 		945792DD9BE23B2CAE1F8A30C87268CF /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */; };
+		A267B66A241F5C9C0039CE35 /* UIView+TUSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = A267B668241F5C9C0039CE35 /* UIView+TUSignal.h */; };
+		A267B66B241F5C9C0039CE35 /* UIView+TUSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = A267B669241F5C9C0039CE35 /* UIView+TUSignal.m */; };
+		A267B66F2420CBC10039CE35 /* TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A267B66E2420CBC10039CE35 /* TUKit.h */; };
 		A69DB67457D15EC4BD0AD80F999DAA48 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A818DDDDDF725487972D04C702D36B6B /* Pods-TUKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FF92D673866DFA9A789BA17A89CC18 /* Pods-TUKit_Tests-dummy.m */; };
 		ABBBE165E8611A02A8955BE2BCA11F8F /* UIApplication+TUSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 072BF54AC54D0EDE0985550B8BFB4C6F /* UIApplication+TUSignal.m */; };
@@ -67,19 +70,19 @@
 
 /* Begin PBXFileReference section */
 		000F788B410F6404AC089D020C5189C5 /* Pods-TUKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		072BF54AC54D0EDE0985550B8BFB4C6F /* UIApplication+TUSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+TUSignal.m"; path = "TUKit/Classes/TUKit/UIApplication+TUSignal.m"; sourceTree = "<group>"; };
+		072BF54AC54D0EDE0985550B8BFB4C6F /* UIApplication+TUSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TUSignal.m"; sourceTree = "<group>"; };
 		09BE567C9F3D9330C64E91A4BD2505E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0FD35EE208D8D62C07596C6E757A4D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		2A9C35B4752739C8B28C98769D441D6C /* Pods-TUKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TUKit_Tests.modulemap"; sourceTree = "<group>"; };
 		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		2E4DBF1D7EE624A4718DADBB7C89543A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E4DBF1D7EE624A4718DADBB7C89543A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		332A7180704084943C9BB3C541461AC2 /* TUKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUKit-prefix.pch"; sourceTree = "<group>"; };
-		3D75209E6453281434F43049DBFC1E1F /* Pods_TUKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TUKit_Example.framework; path = "Pods-TUKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D75209E6453281434F43049DBFC1E1F /* Pods_TUKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D76538CF54C89F7DD224A48274CFAF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		42E6541AA2134681758C84D0882AAD6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -103,20 +106,24 @@
 		834395EBF5FF1C5D6A66A6C36E197436 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		89D506C8CCE5EFEC9FAA2B89719B1644 /* Pods-TUKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B3E1D607A96D564DAAA3A7984E3972C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B3E1D607A96D564DAAA3A7984E3972C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8D80421AD0B2CD7AD65EA117A3E64C69 /* Pods-TUKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TUKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		A0D7C38A7B6BED2EF26A6A8AC7D829E3 /* Pods-TUKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TUKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A267B668241F5C9C0039CE35 /* UIView+TUSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TUSignal.h"; sourceTree = "<group>"; };
+		A267B669241F5C9C0039CE35 /* UIView+TUSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TUSignal.m"; sourceTree = "<group>"; };
+		A267B66D24209D8A0039CE35 /* TUSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUSignal.h; sourceTree = "<group>"; };
+		A267B66E2420CBC10039CE35 /* TUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUKit.h; path = TUKit/Classes/TUKit/TUKit.h; sourceTree = "<group>"; };
 		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		B1934BEDD60225E195E82B3B9DBDB5A1 /* Pods-TUKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TUKit_Example-resources.sh"; sourceTree = "<group>"; };
 		B64EA6701F80CFA053307E192CFFCB1D /* Pods-TUKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TUKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB18FE63A63CC211842BF1D2EEB759C1 /* Pods_TUKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TUKit_Tests.framework; path = "Pods-TUKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8F1C29873FF9B808724A0518F587C3 /* TUKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TUKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB18FE63A63CC211842BF1D2EEB759C1 /* Pods_TUKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8F1C29873FF9B808724A0518F587C3 /* TUKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TUKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		C2A576EAB0AF6BF3C3ED44E6B69A65FD /* UIApplication+TUSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+TUSignal.h"; path = "TUKit/Classes/TUKit/UIApplication+TUSignal.h"; sourceTree = "<group>"; };
-		CB45D2F1C88B35EFC55DB49D21DDBF48 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A576EAB0AF6BF3C3ED44E6B69A65FD /* UIApplication+TUSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TUSignal.h"; sourceTree = "<group>"; };
+		CB45D2F1C88B35EFC55DB49D21DDBF48 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC3FAB1F32C91E9CBF6318E23B59257 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32CD8A970B72A3E0683BF100706A15F /* Pods-TUKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TUKit_Example.modulemap"; sourceTree = "<group>"; };
 		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
@@ -124,7 +131,7 @@
 		E5179BCC19B8A4C9981ACE0E961B3942 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		E5CA5331E227890159DB738439FC17B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7BD32E186136A13057107A37CC9D65 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		F3A2D0DAF64773931FB1DDEEF5A30FB7 /* TUKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TUKit.framework; path = TUKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A2D0DAF64773931FB1DDEEF5A30FB7 /* TUKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FF92D673866DFA9A789BA17A89CC18 /* Pods-TUKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TUKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,6 +267,19 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		A267B667241F5C6F0039CE35 /* Signal */ = {
+			isa = PBXGroup;
+			children = (
+				C2A576EAB0AF6BF3C3ED44E6B69A65FD /* UIApplication+TUSignal.h */,
+				072BF54AC54D0EDE0985550B8BFB4C6F /* UIApplication+TUSignal.m */,
+				A267B668241F5C9C0039CE35 /* UIView+TUSignal.h */,
+				A267B669241F5C9C0039CE35 /* UIView+TUSignal.m */,
+				A267B66D24209D8A0039CE35 /* TUSignal.h */,
+			);
+			name = Signal;
+			path = TUKit/Classes/TUKit/Signal;
+			sourceTree = "<group>";
+		};
 		AC900230697C1E7821094B39D6B824A8 /* Pods-TUKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,8 +321,8 @@
 		D08BC6D5B01216FE34F4393E755EF12D /* TUKit */ = {
 			isa = PBXGroup;
 			children = (
-				C2A576EAB0AF6BF3C3ED44E6B69A65FD /* UIApplication+TUSignal.h */,
-				072BF54AC54D0EDE0985550B8BFB4C6F /* UIApplication+TUSignal.m */,
+				A267B66E2420CBC10039CE35 /* TUKit.h */,
+				A267B667241F5C6F0039CE35 /* Signal */,
 				8CD3C835B70769AF18AA442D811A69E5 /* Pod */,
 				3D4DF6A2345CBC6397248E79E1BEBFF9 /* Support Files */,
 			);
@@ -317,7 +337,6 @@
 				5DE15A8225BF6EF29D484EEF3F1137C2 /* Support Files */,
 				31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -369,8 +388,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C681F3710ABE5DC0C9CEEBCBD71DFB /* FBSnapshotTestCase-umbrella.h in Headers */,
+				A267B66A241F5C9C0039CE35 /* UIView+TUSignal.h in Headers */,
 				6B5D6DB474C132B987C70477407BA74A /* FBSnapshotTestCase.h in Headers */,
 				0F5E167CA33BF5445C854B826CFAA0A0 /* FBSnapshotTestCasePlatform.h in Headers */,
+				A267B66F2420CBC10039CE35 /* TUKit.h in Headers */,
 				BB9EBF113BD13050D1ABB98D156171BA /* FBSnapshotTestController.h in Headers */,
 				D9BC00006932EA29230694B9C018F457 /* UIApplication+StrictKeyWindow.h in Headers */,
 				A69DB67457D15EC4BD0AD80F999DAA48 /* UIImage+Compare.h in Headers */,
@@ -562,6 +583,7 @@
 				D8332434F4EC447926E0089CAB5FC671 /* SwiftSupport.swift in Sources */,
 				945792DD9BE23B2CAE1F8A30C87268CF /* UIApplication+StrictKeyWindow.m in Sources */,
 				B3676D5527BC1ADD0BD6A6F336076402 /* UIImage+Compare.m in Sources */,
+				A267B66B241F5C9C0039CE35 /* UIView+TUSignal.m in Sources */,
 				5B68CBAF49379F9AD2700D0F59DF44FA /* UIImage+Diff.m in Sources */,
 				AE2DFAC835B333B4C489D3548CC0B71D /* UIImage+Snapshot.m in Sources */,
 			);
@@ -796,8 +818,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
